@@ -1,0 +1,18 @@
+# Core
+pandas==2.1.4          # Pinned to a stable version (faster than 1.3.0)
+numpy==1.26.0          # Latest stable
+scikit-learn==1.3.2    # Bug fixes for regression models
+
+# ML
+catboost==1.2.2        # Your chosen version (works well)
+
+# Tracking/Deployment
+mlflow==2.8.1          # Stable with PySpark support
+streamlit==1.28.0      # Latest stable
+
+# Utils
+joblib==1.3.2          # Required for scikit-learn
+
+# Visualization (minimal)
+matplotlib==3.8.0      # Faster than 3.5.0
+seaborn==0.13.0        # Compatible with matplotlib 3.8
